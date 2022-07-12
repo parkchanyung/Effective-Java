@@ -9,18 +9,8 @@ public class Point {
         this.y = y;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (!(o instanceof Point)) {
-//            return false;
-//        }
-//
-//        Point p = (Point)o;
-//        return p.x == x && p.y == y;
-//    }
-
     @Override
-    public boolean equals(Point o) {
+    public boolean equals(Object o) {
         if (!(o instanceof Point)) {
             return false;
         }
